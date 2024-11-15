@@ -6,4 +6,6 @@ const taxCalculatorRouter = Router();
 
 taxCalculatorRouter.post('/taxCalculator', taxHandler);
 
+taxCalculatorRouter.get('/hello', helloworld);
+
 export default taxCalculatorRouter;
