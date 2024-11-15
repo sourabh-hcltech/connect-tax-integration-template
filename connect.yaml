@@ -1,7 +1,7 @@
 deployAs:
   - name: import-data
     applicationType: service
-    endpoint: /taxCalculator
+    endpoint: /hello
     scripts:
       postDeploy: npm install
     configuration:

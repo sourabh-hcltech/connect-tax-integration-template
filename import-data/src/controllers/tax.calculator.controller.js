@@ -6,10 +6,6 @@ import {
 } from '../constants/http.status.constants.js';
 import CustomError from '../errors/custom.error.js';
 
-export const taxHandler = async (request, response) => {
-
-  return response.status(HTTP_STATUS_SUCCESS_ACCEPTED).send(100000000000000);
-};
 
 export const helloworld = async (request, response) => {
 

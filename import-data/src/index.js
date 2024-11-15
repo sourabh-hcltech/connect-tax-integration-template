@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Define routes
-app.use('/test', taxCalculatorRouter);
+app.use('/', taxCalculatorRouter);
 
 // Listen the application
 const server = app.listen(PORT, () => {
