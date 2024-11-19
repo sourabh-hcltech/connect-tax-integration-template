@@ -21,7 +21,7 @@ rad.json
 #Test results file
 TestResults.xml
 # Dependency directories
-node_modules/
+#node_modules/
 # environment variables
 tax-calculator/.env
 order-syncer/.env
